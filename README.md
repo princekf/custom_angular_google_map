@@ -1,3 +1,17 @@
+# Integrate google map with angular #
+# Customize the drawings in google map #
+## Adding API Key ###
+```javascript
+Change your API key at app.module.ts file
+imports: [
+    BrowserModule,
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'your API Key',
+      libraries: ['places', 'drawing', 'geometry'],
+    })
+  ],
+```
 # TestGoogleMap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
