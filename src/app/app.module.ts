@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyC2uDHLYefnkWWv-Vb2skbAXtkDavChUb0',
+      apiKey: 'Your API Key',
       libraries: ['places', 'drawing', 'geometry'],
     })
   ],
